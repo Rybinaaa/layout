@@ -46,10 +46,16 @@ body{
     padding: 0 30px;
 }
 
+.menu ul, li:hover a{
+ color: black;
+ text-shadow: 0px 10px 30px rgba(230, 78, 129, 0.3);
+}
+
 .masterCard-logo{
     display: flex;
     padding: 0px;
     padding-right: 272px;
+    align-self: center;
 }
 
 .sign-up {
@@ -64,8 +70,11 @@ body{
     padding: 0;
     color: #4E91E6;
     text-transform: uppercase;
-
-
+}
+.sign-up:hover{
+    color: #2961aa;
+    background: #dad7d7af;
+    box-shadow: 0px 10px 30px rgba(51, 95, 153, 0.3);
 }
 .main {
     padding-top: 173px;
@@ -113,6 +122,13 @@ body{
     font-size: 12px;
     line-height: 18px;
 }
+
+.lean-more-info:hover {
+    color: black;
+    text-shadow: 0px 10px 30px rgba(230, 78, 129, 0.3);
+
+}
+
 .learn-more-link {
     color: #4E91E6;
     text-decoration: underline;
@@ -145,4 +161,8 @@ body{
 .card-logo-wrapper{
     display: flex;
     justify-content: end;
+}
+
+:hover{
+    transition-duration: 3s;
 }
