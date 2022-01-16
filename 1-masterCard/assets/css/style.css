@@ -180,8 +180,10 @@ a {
    }
 
    @media (max-width:1008px){
+
        .wrapper{
            flex-wrap: wrap;
+           align-items: center;
        }
        .container{
            max-width: 600px;
@@ -203,6 +205,13 @@ a {
    }
 
    @media (max-width:650px){
+
+    .main {
+        display: flex;
+        padding-bottom: 0%;
+        padding-top: 30%;
+    }
+
     .container{
         max-width: 400px;
         margin: 0px auto;
