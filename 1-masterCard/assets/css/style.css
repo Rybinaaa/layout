@@ -175,9 +175,29 @@ a {
    }
 
 
-   .burger{
-       display: none;
-   }
+
+.burger-line{
+    border-radius: 20%;
+    border: 1px inherit rgb(255, 255, 255);
+    min-width: 4vw;
+    padding: 0.3vw;
+    margin: 0.5vh;
+    background-color: white;
+    box-shadow: 10px 10px 30px #2a52888c;
+}
+
+.burger-menu:hover .burger-line{
+    background-color: rgb(136, 176,239);
+    transition-duration: 5s;
+
+
+}
+
+.burger-menu{
+    display: none;
+    border-radius: 100%;
+    padding: 1.4vw;
+}
 
    @media (max-width:1008px){
 
@@ -199,9 +219,11 @@ a {
        .sign-up{
            display: none;
        }
-       .burger{
-        display: block;
+
+       .burger-menu{
+            display: block;
        }
+
    }
 
    @media (max-width:650px){
@@ -229,3 +251,4 @@ a {
     justify-self: center;
     }
 }
+
