@@ -343,6 +343,8 @@ input{
 
 .list  a{
     padding-top: 1vh;
+    text-transform: lowercase;
+    font-size: 12px;
 }
 
 

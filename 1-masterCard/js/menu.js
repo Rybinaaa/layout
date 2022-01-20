@@ -50,19 +50,19 @@ let prop = new Object;
 
 const options = [{
     title: 'Mastercard for you',
-    content: ['Карты', 'Переводы', 'Сервисы']
+    content: ['Cards', 'Transactions', 'Service']
     },
     {
     title: 'Mastercard for business',
-    content: ['Предложения и акции', 'Бизнес Бонус', 'Торговым точкам']
+    content: ['Offers', 'Business offers', 'Shopping clubs']
     },
     {
     title: 'Vision',
-    content: ['Карты', 'Переводы', 'Сервисы']
+    content: ['Cards', 'Transactions', 'Service']
     },
     {
     title: 'Contacts',
-    content: ['Кто мы']
+    content: ['Who are we']
     },
 ]
 
