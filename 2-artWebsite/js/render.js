@@ -23,7 +23,7 @@ $.createProductSlider = dataArts => {
 }
 
 $.deleteProductFromSlide = id => {
-    document.querySelector('.slider').removeChild(document.getElementById(`${id}`))
+    document.querySelector('.slider').removeChild(document.getElementById(`${id}`));
 }
 
 $.createMenu = typeProduct => {
@@ -64,3 +64,8 @@ function vh (x){
 function vw (x){
     console.log(`${(100*x/1140).toFixed(2)}vw`);
 }
+
+
+
+// console.log((document.querySelector('.slider').lastElementChild.getBoundingClientRect().x+document.querySelector('.slider').lastElementChild.offsetWidth));
+

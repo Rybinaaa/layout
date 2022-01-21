@@ -218,6 +218,7 @@ a {
     background: white;
     display: flex;
     justify-content: space-between;
+    display: none;
 
 }
 .art-window:hover .mainImage{
@@ -228,6 +229,10 @@ a {
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     padding: 3.58vh 3.51vw;
 }
+.art-window:hover .desc-wrap{
+    display: flex;
+}
+
 
 
 /* 
@@ -248,4 +253,11 @@ a {
     font-size: 16px;
     align-self: center;
 }
+
+.title-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
