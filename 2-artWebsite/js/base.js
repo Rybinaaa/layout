@@ -65,15 +65,15 @@ let dataArts = [
 let typeProduct = [
     {
         mainMenu: {title: 'paintings', link: '#'},
-        subMenu: [{title: 'landscapes', link: '#'}]
+        subMenu: [{title: 'landscapes', link: '#'},{title: 'abstract art', link: '#'},{title: 'classical art', link: '#'}]
     },
     {
         mainMenu: {title: 'drawings', link: '#'},
-        subMenu: [{title: 'landscapes', link: '#'}]
+        subMenu: [{title: 'art school', link: '#'}]
     },
     {
         mainMenu: {title: 'sculpture', link: '#'},
-        subMenu: [{title: 'landscapes', link: '#'}]
+        subMenu: [{title: 'landscapes', link: '#'},{title: 'folk art', link: '#'}]
     },
     {
         mainMenu: {title: 'artists', link: '#'},

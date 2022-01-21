@@ -38,7 +38,7 @@ $.createMenu = typeProduct => {
         type.subMenu.forEach(subColumn => {
             innerTxt += `
             <li class="subMenuTitle">
-                <a href=${subColumn.link} class="subMenuLink">${subColumn.title}</a>
+                <a href=${subColumn.link} >${subColumn.title}</a>
             </li>
             `
         });
@@ -53,9 +53,7 @@ $.createMenu = typeProduct => {
 $.createMenu(typeProduct)
 $.createProductSlider(dataArts)
 
-console.log(document.querySelector('.footer').parentNode.offsetWidth);
-// mainMenu: {title: 'paintings', link: '#'},
-// subMenu: [{title: 'landscapes', link: '#'}]
+
 
 function vh (x){
     console.log(`${(100*x/1039).toFixed(2)}vh`);

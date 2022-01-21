@@ -30,7 +30,11 @@ body{
     width: 100%;
     z-index: 10;
     display: none;
+    padding: 0.4vh 0;
 }
+
+
+
 
 a {
     display: block;
@@ -204,9 +208,7 @@ a {
     max-height: 7.7vh;
 }
 
-.nav > li :hover .sub-menu {
-    display: block;
-}
+
 
 .art-window:hover .mainImage{
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
@@ -259,5 +261,17 @@ a {
     justify-content: space-between;
 }
 
+/* .nav li a:hover {
+    color: rgb(0, 0, 0);
+} */
 
+.nav li:hover .sub-menu{
+    display: block;
+    font-size: 10px;
+}
+
+.nav li:hover {
+    font-size: 12px;
+
+}
 
