@@ -51,12 +51,10 @@ $.createMenu = typeProduct => {
     })
 }
 $.createMenu(typeProduct)
-$.createProductSlider(dataArts)
-
 
 
 function vh (x){
-    console.log(`${(100*x/1039).toFixed(2)}vh`);
+    console.log(`${(100*x/900).toFixed(2)}vh`);
 }
 
 function vw (x){
@@ -65,5 +63,4 @@ function vw (x){
 
 
 
-// console.log((document.querySelector('.slider').lastElementChild.getBoundingClientRect().x+document.querySelector('.slider').lastElementChild.offsetWidth));
 

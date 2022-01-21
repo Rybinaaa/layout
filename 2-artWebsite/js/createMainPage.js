@@ -1,0 +1,2 @@
+$.createProductSlider(dataArts)
+

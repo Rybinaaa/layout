@@ -10,7 +10,7 @@ body{
     font-size: 1.5vh;
     width: 100%;
     margin: 0;
-
+    padding: 0;
 }
 .nav{
     display: flex;
@@ -61,7 +61,7 @@ ul {
     max-width: 82.6vw;
     margin: 0 auto;
     padding: 6.2vh 0;
-    padding-bottom: 0;
+    padding-bottom: 4.23vh;
 }
 
 .art-window {
@@ -135,9 +135,13 @@ a {
 }
 
 .main{
-    padding-top: 11.1vh;
+    margin-top: 6.93vh;
     font-size: 2.3vh;
     letter-spacing: 0.05em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100vw;
+
     /* padding-bottom: 10.8vh; */
 
 }
@@ -256,7 +260,7 @@ a {
     align-self: center;
 }
 
-.title-wrap{
+.main-wrap{
     display: flex;
     justify-content: space-between;
 }
@@ -273,5 +277,111 @@ a {
 .nav li:hover {
     font-size: 12px;
 
+}
+.slider-icon{
+    display: block;
+}
+
+.container-item{
+    margin-top: -6.93vh;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vw;
+
+}
+
+button { 
+    border: none; 
+    outline: none; 
+    background: inherit;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: inherit;
+}
+
+.paintView {
+    background: #F4F4F2;
+    padding: 10.88vh 11.16vh 9.12vw  10.53vw;
+    display: flex;
+
+}
+.descImg {
+    display: flex;
+    flex-direction: column;
+    height: 33.89vh;
+    justify-content: space-between;
+    align-self: center;
+
+}
+.paint {
+    height: 8.33vh;
+    padding: 0.77vh 0.96vw;
+}
+.mainImg {
+    height: 51.56vh;
+    margin: 2.78vh 0 6.11vh 3.51vw;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    margin-right: 2.89vw;
+}
+.options img{
+    display: block;
+    padding-left: 2.89vw;
+    max-height: 2.67vh;
+}
+.paintDesk {
+    padding: 8.1vh 11.16vh 9.12vw  10.53vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.paintDesk > img, h3, h1{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.titleItem {
+    font-size: 4.44vh;
+    padding: 0;
+    margin: 0.89vh 0;
+}
+.itemAuthor {
+    padding: 0;
+    margin: 0;
+    font-size: 2.33vh;
+}
+.itemDesk {
+    margin: 2.67vh 0;
+    font-size: 1.78vh;
+    color: #65635F;
+    line-height: 21px;
+}
+.price {
+    font-size: 2.67vh;
+    align-self: start;
+    margin: 2.56vh 0 1.33vh 0;
+}
+.addToCard {
+    max-width: 34.39vw;
+    background: #000;
+    height: 5.33vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 1.78vh 0;
+}
+.back{
+    max-width: 5.44vw;
+}
+
+.paintDesk > img{
+    margin-bottom: 1.22vh;
+    max-height: 1.78vh;
+    align-self: start;
 }
 
